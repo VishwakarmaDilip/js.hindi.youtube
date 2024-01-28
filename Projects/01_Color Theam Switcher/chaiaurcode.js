@@ -20,10 +20,13 @@ buttons.forEach((button) => {
     // switch (e.target.id) {
     //     case "grey":
     //         body.style.backgroundColor = e.target.id;
+    //         break;
     //     case "white":
     //         body.style.backgroundColor = e.target.id;
+    //         break;
     //     case "blue":
     //         body.style.backgroundColor = e.target.id;
+    //         break;
     //     case "yellow":
     //         body.style.backgroundColor = e.target.id;
     //         break;
@@ -33,20 +36,23 @@ buttons.forEach((button) => {
     // }
 
     /*with if */
-    if (e.target.id === "grey") {
-        body.style.backgroundColor = e.target.id
-    }
-    if (e.target.id === "white") {
-        body.style.backgroundColor = e.target.id
-    }
-    if (e.target.id === "blue") {
-        body.style.backgroundColor = e.target.id
-    }
-    if (e.target.id === "yellow") {
-        body.style.backgroundColor = e.target.id
-    }
-    if (e.target.id === "purple") {
-        body.style.backgroundColor = e.target.id
-    }
+    // if (e.target.id === "grey") {
+    //     body.style.backgroundColor = e.target.id
+    // }
+    // if (e.target.id === "white") {
+    //     body.style.backgroundColor = e.target.id
+    // }
+    // if (e.target.id === "blue") {
+    //     body.style.backgroundColor = e.target.id
+    // }
+    // if (e.target.id === "yellow") {
+    //     body.style.backgroundColor = e.target.id
+    // }
+    // if (e.target.id === "purple") {
+    //     body.style.backgroundColor = e.target.id
+    // }
+
+    /* without any control flow */
+    body.style.backgroundColor = button.id;
   })
 })
